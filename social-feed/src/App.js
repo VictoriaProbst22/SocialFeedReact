@@ -11,18 +11,21 @@ function App() {
       message: "I like Pizza for dinner!",
       isLiked: false,
       isDisliked: false,
+      id:1,
     },
     {
-      name:"Pierson",
-      message: "I like Pizza for dinner!",
+      name:"Natasha",
+      message: "I like Chinese for dinner!",
       isLiked: false,
       isDisliked: false,
+      id:2,
     },
     {
-      name:"Pierson",
-      message: "I like Pizza for dinner!",
+      name:"Jake",
+      message: "I like Pho for dinner!",
       isLiked: false,
       isDisliked: false,
+      id: 3,
     }
   ])
 
