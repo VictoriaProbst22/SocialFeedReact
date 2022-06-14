@@ -1,9 +1,10 @@
 import React from 'react';
+import Post from './Post';
 
-const PostMapper = (props) => {
+const PostMapper = ({array}) => {
     return ( 
     <ul>
-
+        {array.map((item) => <li> <Post /> </li>)}
     </ul> 
     );
 }
