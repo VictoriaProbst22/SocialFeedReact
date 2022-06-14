@@ -1,8 +1,15 @@
+import React from 'react';
+import CreatePost from './Components/CreatePost';
+import NavBar from './Components/NavBar';
+import PostMapper from './Components/PostMapper';
 
 function App() {
   return (
-    <div className="App">
-     Hello World!
+    <div>
+      <NavBar />
+      <CreatePost />
+      <PostMapper />
+    
     </div>
   );
 }
