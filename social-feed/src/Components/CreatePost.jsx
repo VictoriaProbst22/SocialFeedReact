@@ -1,22 +1,19 @@
 import React, { useState } from 'react';
 
 const CreatePost = (props) => {
-    const [name, setName] = useState('')
-    const [post, setPost] = useState(0);
+    const [name, setName] = useState('');
+    const [message, setMessage] = useState('');
 
 
     function handleSubmit(event){
         event.preventDefault();
         let newPost = {
             name: name,
-            post: post
+            message: message,
         };
-        console.log(newPost)
+        console.log(newPost);
+        props.addNewPostProperty(newPost);
     }
-
-
-
-
 
 
 
@@ -25,7 +22,7 @@ const CreatePost = (props) => {
             <lable> Name </lable>
             <input type='text'  value={name} onChange={(event)=> setName(event.target.value)}/>
             <lable> Post </lable>
-            <input type='text' value={post} onChange={(event)=> setPost(event.target.value)}/>
+            <input type='text' value={message} onChange={(event)=> setMessage(event.target.value)}/>
             <button type='submit'> POST </button>
        </form>
      );
