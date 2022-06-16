@@ -12,13 +12,16 @@ function App() {
       isLiked: false,
       isDisliked: false,
       id:1,
+      date: '1-1-2022'
     },
     {
       name:"Natasha",
       message: "I like Chinese for dinner!",
+      date: '2022-01-01',
       isLiked: false,
       isDisliked: false,
       id:2,
+      
     },
     {
       name:"Jake",

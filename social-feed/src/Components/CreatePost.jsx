@@ -3,6 +3,7 @@ import "./index.css";
 const CreatePost = (props) => {
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
+    const [date, setDate] = useState('');
 
 
     function handleSubmit(event){
@@ -10,6 +11,7 @@ const CreatePost = (props) => {
         let newPost = {
             name: name,
             message: message,
+            date: date,
         };
         console.log(newPost);
         props.addNewPostProperty(newPost);
@@ -29,6 +31,12 @@ const CreatePost = (props) => {
                 <lable> Post </lable>
                 <input type='text' value={message} onChange={(event)=> setMessage(event.target.value)}/>
             </div>
+
+            <div>
+                <label> Date </label>
+                <input type='date' value={date} onChange={(event)=> setDate(event.target.value)}/>
+            </div>
+
             <div> 
             <button type='submit'> POST </button>
             </div>
