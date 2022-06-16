@@ -1,0 +1,24 @@
+.header-nav {
+   border-radius: 75px;
+   text-align: center;
+   height: 50px;
+   background-color: lightseagreen;
+   margin-bottom: 15px;
+}
+
+
+.top-body{
+   border-radius: 75px;
+   text-align: center;
+   height: 75px;
+   background-color: lightseagreen;
+   margin-bottom: 10px;
+}
+
+
+.middle-body{
+   border-radius: 75px;
+   text-align: left;
+   background-color: lightgray;
+   padding: 25px;
+}

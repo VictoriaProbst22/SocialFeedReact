@@ -3,7 +3,7 @@ import Post from './Post';
 
 const PostMapper = ({array}) => {
     return ( 
-    <ul>
+    <ul class="middle-body">
         {array.map((item) => <li key={item.id}> <Post post={item}/> </li>)}
     </ul> 
     );

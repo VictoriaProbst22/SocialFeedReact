@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import "./index.css";
 const CreatePost = (props) => {
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
@@ -18,7 +18,8 @@ const CreatePost = (props) => {
 
 
     return ( 
-       <form onSubmit={handleSubmit}>
+       <form class="top-body" onSubmit={handleSubmit} >
+        <h1 ></h1>
            <div>
                  <lable> Name </lable>
                  <input type='text'  value={name} onChange={(event)=> setName(event.target.value)}/>

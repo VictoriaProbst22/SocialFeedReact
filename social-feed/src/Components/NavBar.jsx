@@ -1,8 +1,10 @@
 import React from 'react';
+import "./index.css";   
 
 const NavBar = (props) => {
     return ( 
-    <header>
+    <header class="header-nav">
+
         <div> SOCIAL FEED </div>
        
     </header> 
