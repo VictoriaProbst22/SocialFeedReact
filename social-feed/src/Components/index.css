@@ -1,24 +1,33 @@
 .header-nav {
    border-radius: 75px;
+   box-shadow: 5px 10px 18px blue;
    text-align: center;
    height: 50px;
    background-color: lightseagreen;
    margin-bottom: 15px;
+   text-decoration: underline;
+   text-shadow: 0 0 3px rgb(0, 0, 0);
+   
 }
 
 
 .top-body{
    border-radius: 75px;
+   box-shadow: 5px 10px 18px blue;
    text-align: center;
    height: 100px;
    background-color: lightseagreen;
    margin-bottom: 5px;
+   font-family: Garamond, serif;
 }
+
 
 
 .middle-body{
    border-radius: 75px;
+   box-shadow: 5px 10px 18px gray;
    text-align: left;
    background-color: lightgray;
    padding: 25px;
+   font-family: Garamond, serif;
 }

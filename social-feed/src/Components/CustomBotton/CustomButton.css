@@ -5,3 +5,12 @@
 .inactive{
     background-color: dimgrey;
 }
+
+.button-style{
+    color: black;
+    text-align: center;
+    margin: 4px 2px;
+    display: inline;
+    padding: 10px 25px;
+    border-radius: 50%; 
+}

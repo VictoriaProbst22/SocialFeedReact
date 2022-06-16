@@ -16,7 +16,7 @@ const CustomButton = (props)=>{
         }
     }
     return(
-        <div>
+        <div class='button-style'>
             <button className={buttonClass} onClick={handleClick}> {props.message}</button>
         </div>
     )
